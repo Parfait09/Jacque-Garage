@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JACQUE GARAGE</title>
+  
+  <!-- Lien vers Bootstrap CSS depuis CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icônes Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Style personnalisé -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #000;
+    }
+    .navbar-brand, .nav-link, .btn {
+      color: white !important;
+    }
+    .btn-quote {
+      background-color: orange;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+    }
+    .mb-3 img{
+      width: 190px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- On mettra ici le code Bootstrap (étape 1 : navbar) -->
+  <!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark px-4">
+  <a class="navbar-brand" href="#">JACQUE GARAGE</a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+    </ul>
+    <div class="d-flex align-items-center">
+      <span class="text-white me-3"><i class="bi bi-telephone"></i> +2250779951124</span>
+      <button class="btn btn-quote">appeler maintenant</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-section text-white d-flex align-items-center" style="height: 80vh; background-image: url('photo1.jpg'); background-size: cover; background-position: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="display-4 fw-bold">🔧 Offre d’installation incluse !</h1>
+        <p class="lead">Un service clé-en-main de haute qualité avec design 3D, matériaux nobles, finition luxe, délais prioritaires et service après-vente étendu.</p>
+        <a href="tel:+2250779951124" class="btn btn-warning me-2">📱 Nous appeler maintenant</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION PRICING -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="mb-4">SERVICES</h2>
+    <p class="mb-5">Un portail en fer forgé, une maison protégée avec classe.</p>
+
+    <div class="row g-4">
+
+      <!-- Starter Plan -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Sécurité Résidentielle (Clients : particuliers, villas, maisons, petits immeubles)</h5>
+            <ul class="list-unstyled my-3 text-start">
+              <li>✅ Grilles de sécurité pour fenêtres et portes</li>
+              <li>✅ Portails métalliques (battants, coulissants, motorisés ou manuels)</li>
+              <li>✅ Clôtures en fer forgé ou métal pour périmètre</li>
+              <li>✅ Garde-corps pour escaliers et balcons</li>
+              <li>✅ Portes blindées en métal ou renforcées</li>
+              <li>✅ Motorisation et automatisation de portails</li>
+              <li>✅ Interphone, digicode, contrôle d’accès</li>
+            </ul>
+            <a href="tel:+2250779951124" class="btn btn-dark w-100">📞 Parler à un expert</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Plan -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow border-warning border-2">
+          <div class="card-body">
+            <span class="badge bg-warning text-dark mb-2">Best Value</span>
+            <h5 class="card-title">Esthétique & Décoration Métallique (Clients : particuliers, designers, hôtels, boutiques)</h5>
+            <ul class="list-unstyled my-3 text-start">
+              <li>✅ Escaliers design (métal seul ou mixte bois/verre)</li>
+              <li>✅ Intelligent video technology storage</li>
+              <li>✅ Pergolas, auvents, abris métalliques décoratifs</li>
+              <li>✅ Mobilier en métal sur mesure (tables, chaises, étagères)</li>
+              <li>✅ Peinture décorative (thermolaquage, vieillie, brillante)</li>
+            </ul>
+            <a href="tel:+2250779951124" class="btn btn-dark w-100">📞 Parler à un expert</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business Plan -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Pro & Industriel (Clients : entreprises, magasins, entrepôts, chantiers, usines)</h5>
+            <ul class="list-unstyled my-3 text-start">
+              <li>✅ Portails industriels coulissants ou motorisés</li>
+              <li>✅ Clôtures rigides ou grillagées avec structure métallique</li>
+              <li>✅ Barrières de parking et barrières levantes</li>
+              <li>✅ Charpente métallique légère pour entrepôts ou hangars</li>
+              <li>✅ Structures sur mesure pour installations techniques</li>
+            </ul>
+            <a href="tel:+2250779951124" class="btn btn-dark w-100">📞 Parler à un expert</a>
+          </div>
+        </div>
+      </div>
+            <!-- Business Plan -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Construction & Architecture (Clients : architectes, promoteurs, chantiers BTP)</h5>
+            <ul class="list-unstyled my-3 text-start">
+              <li>✅ Suivi de plans d’architectes ou d’ingénieurs</li>
+              <li>✅ Soudure professionnelle (TIG, MIG, à l’arc)</li>
+              <li>✅ Assemblage de structures complexes</li>
+              <li>✅ Accompagnement dans les projets BTP (garde-corps, structures, escaliers...)</li>
+            </ul>
+            <a href="tel:+2250779951124" class="btn btn-dark w-100">📞 Parler à un expert</a>
+          </div>
+        </div>
+      </div>
+            <!-- Business Plan -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Services & Maintenance (Clients : anciens clients, propriétaires, gestionnaires)</h5>
+            <ul class="list-unstyled my-3 text-start">
+              <li>✅ Réparation de portails, grilles, escaliers, clôtures...</li>
+              <li>✅ Révision annuelle des motorisations et automatismes</li>
+              <li>✅ Améliorations de sécurité (ajout de digicode, motorisation...)</li>
+            </ul>
+            <a href="tel:+2250779951124" class="btn btn-dark w-100">📞 Parler à un expert</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECTION VALEURS / SERVICES -->
+<section class="py-5 bg-dark text-white text-center">
+  <div class="container">
+    <h2 class="mb-4">JACQUE GARAGE</h2>
+
+    <div class="row g-4">
+
+      <!-- Bloc 1 -->
+      <div class="col-md-4">
+        <div class="p-4 bg-secondary rounded-3 h-100">
+          <div class="mb-3">
+            <img src="portail1.jpg" alt="icon">
+          </div>
+          <h5>Conception et fabrication sur mesure</h5>
+          <p>Portails (coulissants, battants, automatiques)</p>
+            <p>Grilles de sécurité (fenêtres, portes)</p>
+
+            <p>Garde-corps (escaliers, balcons, mezzanines)</p>
+
+            <p>Rampes d’escalier</p>
+        </div>
+      </div>
+
+      <!-- Bloc 2 -->
+      <div class="col-md-4">
+        <div class="p-4 bg-secondary rounded-3 h-100">
+          <div class="mb-3">
+            <img src="barriere2.jpg" class="rounded-circle" alt="icon">
+          </div>
+          <h5>Clôtures métalliques personnalisées</h5>
+          <p>Clôtures décoratives ou de sécurité<br>Barrières de propriété ou industrielles</p>
+        </div>
+      </div>
+
+      <!-- Bloc 3 -->
+      <div class="col-md-4">
+        <div class="p-4 bg-secondary rounded-3 h-100">
+          <div class="mb-3">
+            <img src="charpente.jpg" class="rounded-circle" alt="icon">
+          </div>
+          <h5>Charpente métallique légère</h5>
+          <p>Abris de jardin, hangars, auvents, pergolas<br> Structures métalliques pour toitures</p>
+        </div>
+      </div>
+
+      <!-- Bloc 4 -->
+      <div class="col-md-4">
+        <div class="p-4 bg-secondary rounded-3 h-100">
+          <div class="mb-3">
+            <img src="escalier.jpg" class="rounded-circle" alt="icon">
+          </div>
+          <h5>Escaliers métalliques</h5>
+          <p>Droits, tournants ou hélicoïdaux <br>Escaliers combinés bois-métal ou verre-métal</p>
+        </div>
+      </div>
+
+      <!-- Bloc 5 -->
+      <div class="col-md-4">
+        <div class="p-4 bg-secondary rounded-3 h-100">
+          <div class="mb-3">
+            <img src="soudure.jpg" class="rounded-circle" alt="icon">
+          </div>
+          <h5>Soudure et assemblage</h5>
+          <p>Soudure à l’arc, TIG, MIG<br>Réparation ou renforcement de structures métalliques existantes</p>
+        </div>
+      </div>
+
+      <!-- Bloc 6 -->
+      <div class="col-md-4">
+        <div class="p-4 bg-secondary rounded-3 h-100">
+          <div class="mb-3">
+            <img src="decoration.jpg" class="rounded-circle" alt="icon">
+          </div>
+          <h5>Mobilier et décoration métallique</h5>
+          <p>Tables, chaises, étagères, supports TV<br>Œuvres décoratives en fer forgé (intérieur/extérieur)</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row">
+
+      <!-- Logo et description -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">JACQUE GARAGE</h5>
+        <p>
+          Experts en ferronnerie, vitrerie et systèmes de sécurité.  
+          Nous transformons vos idées en structures solides et élégantes.
+        </p>
+      </div>
+
+      <!-- Liens utiles -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">Liens rapides</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Accueil</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Nos Services</a></li>
+          <li><a href="#" class="text-light text-decoration-none">À propos</a></li>
+          <li><a href="tel:+2250779951124" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-uppercase">Contact</h5>
+        <p><i class="bi bi-telephone-fill me-2"></i>+2250779951124</p>
+        <p><i class="bi bi-geo-alt-fill me-2"></i> Aboisso, Côte d'Ivoire </p>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center mt-4">
+      <small>&copy; 2025 JACQUE GARAGE. Tous droits réservés.</small>
+    </div>
+  </div>
+</footer>
+  <!-- Scripts Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
